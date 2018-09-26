@@ -33,7 +33,7 @@ server {
     listen 443;
     server_name your_hostname.com;
 
-    error_log /var/log/nginx/rocketchat.access.log;
+    error_log /var/log/nginx/rocketchat.error.log;
 
     ssl on;
     ssl_certificate /etc/nginx/certificate.crt;
